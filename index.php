@@ -25,7 +25,8 @@ $numbers = array(7,9,8,9,8,8,6);
 
 printArr($numbers);
 
-echo "Step: 1 - PHP Array Practice" ."<br>";
+echo "<p>".largest($numbers)."</p>";
+
 
 ?>
 
