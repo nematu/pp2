@@ -10,3 +10,8 @@ function largest($numbers)
 {
     return max($numbers);
 }
+function removeDups($numbers){
+    return array_unique($numbers);
+}
+
+
