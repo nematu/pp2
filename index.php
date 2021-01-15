@@ -6,15 +6,7 @@
 ini_set('display_errors',1);
 error_reporting(E_ALL);
 
-$numbers
-function printArr2($numbers)
-{
-    foreach ($numbers as $item =>$price)
-    {
-        echo $price.'<br>';
-    }
-}
-printArr2($numbers);
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -27,8 +19,16 @@ printArr2($numbers);
 </head>
 <body>
 <?php
-echo "Step: 1 - PHP Array Practice";
-
+echo "Step: 1 - PHP Array Practice" ."<br>";
+$numbers = array(7,9,8,9,8,8,6);
+function printArr($numbers)
+{
+    foreach ($numbers as $item)
+    {
+        echo $item.'<br>';
+    }
+}
+printArr($numbers);
 ?>
 
 </body>
