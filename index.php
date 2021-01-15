@@ -6,7 +6,8 @@
 ini_set('display_errors',1);
 error_reporting(E_ALL);
 
-
+// Includes
+include ("include/functions.php");
 ?>
 <!doctype html>
 <html lang="en">
@@ -19,16 +20,13 @@ error_reporting(E_ALL);
 </head>
 <body>
 <?php
-echo "Step: 1 - PHP Array Practice" ."<br>";
+echo "<p>Step: 1 - PHP Array Practice</p>";
 $numbers = array(7,9,8,9,8,8,6);
-function printArr($numbers)
-{
-    foreach ($numbers as $item)
-    {
-        echo $item.'<br>';
-    }
-}
+
 printArr($numbers);
+
+echo "Step: 1 - PHP Array Practice" ."<br>";
+
 ?>
 
 </body>
