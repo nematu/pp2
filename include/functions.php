@@ -22,9 +22,9 @@ function distribute($numbers)
         $numAssocArr = array_combine($uniqueNum,$count);
         ksort($numAssocArr);
         echo "[";
-        foreach ($numAssocArr as $key => $value)
+        foreach ($numAssocArr as $element => $num)
         {
-            echo"$key => $value, ";
+            echo"$element => $num, ";
         }
         echo "]";
 }
