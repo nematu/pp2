@@ -24,9 +24,8 @@ echo "<p>Step: 1 - PHP Array Practice</p>";
 $numbers = array(7,9,8,9,8,8,6);
 
 printArr($numbers);
-
 echo "<p>".largest($numbers)."</p>";
-printArr(removeDups($numbers));
+distribute($numbers);
 
 ?>
 
